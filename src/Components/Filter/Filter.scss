@@ -1,0 +1,19 @@
+.filter_input {
+  margin-left: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.filter_input:focus,
+.filter_input:hover {
+  box-shadow: 0 0 0 3px teal;
+  transition: 0.3s;
+}
+
+.filter_label {
+  font-size: 18px;
+  font-weight: 600;
+}

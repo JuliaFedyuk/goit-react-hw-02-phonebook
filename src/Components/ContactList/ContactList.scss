@@ -1,0 +1,36 @@
+.contact_list {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.contact_item {
+  display: flex;
+  align-items: baseline;
+}
+
+.contact_info {
+  margin-right: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.add_button {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 30px;
+  transition: 0.3s;
+  background-color: Teal;
+}
+
+.add_button:hover {
+  background-color: DarkRed;
+  color: white;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
