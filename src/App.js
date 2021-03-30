@@ -19,9 +19,11 @@ export default class App extends Component {
       number,
     };
 
-    const getName = this.state.contacts.map(contact => contact.name);
+    const getName = this.state.contacts.map(contact =>
+      contact.name.toLowerCase(),
+    );
 
-    if (getName.includes(contact.name)) {
+    if (getName.includes(contact.name.toLowerCase())) {
       alert(`${contact.name} is already in contacts`);
     } else {
       this.setState(prevState => ({
